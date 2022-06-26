@@ -36,3 +36,11 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const ThNone = styled.th`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+`;

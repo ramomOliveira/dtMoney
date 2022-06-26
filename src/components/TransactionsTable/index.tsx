@@ -1,5 +1,5 @@
 import { useTransactions } from "../../hooks/useTransactions";
-import { Container } from "./styles";
+import { Container, ThNone } from "./styles";
 
 export function TrashedTransactionsTable() {
   const { transactions } = useTransactions();
@@ -12,7 +12,7 @@ export function TrashedTransactionsTable() {
             <th>Título</th>
             <th>Valor</th>
             <th>Categoria</th>
-            <th>Data</th>
+            <ThNone>Data</ThNone>
           </tr>
         </thead>
 
@@ -27,11 +27,11 @@ export function TrashedTransactionsTable() {
                 }).format(transaction.amount)}
               </td>
               <td>{transaction.category}</td>
-              <td>
+              <ThNone>
                 {new Intl.DateTimeFormat('pt-BR').format(
                   new Date(transaction.createdAt)
                 )}
-              </td>
+              </ThNone>
             </tr>
           )
           )}

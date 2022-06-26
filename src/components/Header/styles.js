@@ -5,7 +5,7 @@ export const Container = styled.header`
 `;
 
 export const Content = styled.div`
-  max-width: 1120px;
+  max-width: 100%;
   margin: 0 auto;
 
   padding: 2rem 1rem 12rem;
@@ -27,5 +27,9 @@ export const Content = styled.div`
     &:hover {
       filter: brightness(0.9);
     }
+
+    @media (min-width: 768px) {
+    max-width: 1120px;
+  }
   }
 `;

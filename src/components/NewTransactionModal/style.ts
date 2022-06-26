@@ -4,14 +4,14 @@ import { darken, transparentize } from 'polished';
 export const Container = styled.form`
   h2 {
     color: var(--text-title);
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 16px;
+    margin-bottom: 16px;
   }
 
   input {
     width: 100%;
-    padding: 0 1.5rem;
-    height: 4rem;
+    padding: 0 10px;
+    height: 50px;
     border-radius: 0.25rem;
 
     border: 1px solid #d7d7d7;
@@ -45,6 +45,18 @@ export const Container = styled.form`
 
     &:hover {
       filter: brightness(0.9);
+    }
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    input {
+      padding: 0 1.5rem;
+      height: 4rem;
+      font-size: 1rem;
     }
   }
 `;
