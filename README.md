@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center">Dt Money</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<p align="center">
+  <img alt="Logo dtMoney" src="github/logo.svg" width="120px">
+</p>
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+## Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto feito em ReactJs, api simulada com miragejs, projeto para controle de finanças pessoais.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <img alt="Imagem Home" src="github/dtmoney01.png" width="800px">
+</p>
 
-### `yarn test`
+<p>-------------</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img alt="Imagem modal" src="github/dtmoney02.png" width="800px">
+</p>
 
-### `yarn build`
+  - Projeto Front End esta com deploy na Netlify [clique aqui](https://glittery-bunny-77da3e.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone o projeto na sua máquina com Vs Code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ git clone https://github.com/ramomOliveira/dtMoney.git
+$ cd vh
+$ code .
+```
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para iniciá-lo, siga as etapas abaixo:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+#instalar as dependências
+$ yarn 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#iniciar o projeto
+$ yarn dev #para rodar em desenvolvimento
+```
 
-## Learn More
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧪 Tecnologias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Tecnologia            | Versão            |
+| --------------------- | ----------------- |
+| Axios                 | `0.27.2`          |
+| MirageJs              | `0.1.45`          |
+| Polished              | `18.1.0`         |
+| ReactJs               | `12.1.6 `         |
+| React-modal           | `3.15.1`          |
+| Styled-components     | `5.3.5`          |
+| Typescript            | `4.4.2`          |
+
+<br />
+
+
+
+- Obs: O projeto foi feito simulando uma api com axios e miragejs, então na versão online nao irar funcionar o CRUD.
